@@ -546,19 +546,10 @@ function hideBlock(el, sel){
           <p>The western and airport corridors. We have brokered land across Chevella, Mudimyal, Kanakamamidi and Shadnagar, and we take buyers through this belt every week.</p>
         </div>
       </div>
-      <div class="gallery reveal" style="margin-top:var(--s5)">
-        <figure class="shot">
-          <img src="1st.png" width="900" height="1200" alt="Open plot with boundary stones near Aziz Nagar, Moinabad mandal" loading="lazy" decoding="async" onerror="hideBlock(this,'.shot')">
-          <figcaption>Aziz Nagar</figcaption>
-        </figure>
-        <figure class="shot">
-          <img src="2nd.png" width="900" height="1200" alt="Approach road to a residential layout in Chevella" loading="lazy" decoding="async" onerror="hideBlock(this,'.shot')">
-          <figcaption>Chevella</figcaption>
-        </figure>
-        <figure class="shot">
-          <img src="3rd.png" width="900" height="1200" alt="Agricultural land parcel on the Moinabad to Chevella road" loading="lazy" decoding="async" onerror="hideBlock(this,'.shot')">
-          <figcaption>Moinabad &ndash; Chevella road</figcaption>
-        </figure>
+       <div class="gallery reveal" style="margin-top:var(--s5)">
+        <img src="1st.png" width="900" height="1200" alt="Open plot with boundary stones near Aziz Nagar, Moinabad mandal" loading="lazy" decoding="async" onerror="this.closest(\'.gallery\').remove()">
+        <img src="2nd.png" width="900" height="1200" alt="Approach road to a residential layout in Chevella" loading="lazy" decoding="async" onerror="this.closest(\'.gallery\').remove()">
+        <img src="3rd.png" width="900" height="1200" alt="Agricultural land parcel near Qutbuddin Guda, Moinabad mandal" loading="lazy" decoding="async" onerror="this.closest(\'.gallery\').remove()">
       </div>
     </div>
   </section>
